@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <title>3D Town</title>
+    <meta name="author" content="Manoj Bahuguna" />
+    <meta
+      name="description"
+      content="3D landscape of town at night built using three.js"
+    />
+    <meta name="image" property="og:image" content="./meta/town-three.png" />
+
+    <style>
+      html,
+      body,
+      #root,
+      canvas {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      * {
+        font-family: Sora, sans-serif;
+        user-select: none;
+      }
+
+      body {
+        background-color: #25112a;
+      }
+
+      .three-html {
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      #Loader {
+        color: white;
+        position: fixed;
+        top: 45%;
+        text-align: center;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Loader">Loading...</div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </body>
+</html>
