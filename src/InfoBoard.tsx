@@ -70,17 +70,6 @@ export function InfoBoard(props: MeshProps) {
         </h1>
 
         <p>Three.js, React.js, react-three-fiber</p>
-
-        <p>
-          <a
-            style={{ color: "#fffd", marginRight: 16 }}
-            href="https://monob.in"
-            target="_blank"
-            rel="noopener"
-          >
-            monob.in
-          </a>
-        </p>
       </Html>
     </mesh>
   );
