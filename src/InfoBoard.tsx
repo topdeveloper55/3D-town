@@ -80,15 +80,6 @@ export function InfoBoard(props: MeshProps) {
           >
             monob.in
           </a>
-
-          <a
-            style={{ color: "#fffd" }}
-            href="https://linkedin.com/in/BahugunaManoj"
-            target="_blank"
-            rel="noopener"
-          >
-            linkedin.com/in/BahugunaManoj
-          </a>
         </p>
       </Html>
     </mesh>
