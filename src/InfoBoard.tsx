@@ -57,18 +57,6 @@ export function InfoBoard(props: MeshProps) {
         transform
         occlude
       >
-        <h1 style={{ marginBottom: 32 }}>
-          <small style={{ display: "block" }}>3D Town by</small>
-          <a
-            style={{ color: "white", textDecoration: "none" }}
-            href="https://monob.in"
-            target="_blank"
-            rel="noopener"
-          >
-            Manoj Bahuguna
-          </a>
-        </h1>
-
         <p>Three.js, React.js, react-three-fiber</p>
       </Html>
     </mesh>
